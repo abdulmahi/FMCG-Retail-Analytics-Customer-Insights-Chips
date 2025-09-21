@@ -5,7 +5,15 @@ It was completed as part of a structured analytics workflow using **Python, pand
 
 ---
 
-## 📊 Project Overview
+## 🎯 Objectives
+- Explore and clean retail FMCG transaction data.  
+- Understand customer behaviour by demographics and premium status.  
+- Identify high-value customer segments and product preferences.  
+- Evaluate the effectiveness of trial store layout changes using statistical testing.  
+
+---
+
+## 📊 Overview
 The analysis followed three stages:
 
 1. **QVI Analysis (Initial Exploration)**  
@@ -19,21 +27,14 @@ The analysis followed three stages:
    - Analysed purchase behaviour by segment.  
    - Identified target segments and their brand/pack-size preferences.  
 
-3. **Trial Store Analysis (Experiment Evaluation)**  
-   - Defined trial stores (77, 86, 88) and selected control stores using correlation & magnitude similarity.  
-   - Compared trial vs control stores on sales and customer numbers.  
-   - Conducted t-tests to determine statistical significance.  
-   - Concluded that Store 88’s trial was successful (uplift in both sales & customers).  
+3. **Trial Store Analysis (Statistical Evaluation)**  
+   - Defined trial stores (77, 86, 88) and selected control stores using **correlation & magnitude similarity**.  
+   - Compared trial vs control stores on **sales** and **customer numbers**.  
+   - Conducted **t-tests** to determine statistical significance.  
 
 ---
 
-## 🎯 Objectives
-- Explore and clean retail FMCG transaction data.  
-- Understand customer behaviour by demographics and premium status.  
-- Identify high-value customer segments and product preferences.  
-- Evaluate the effectiveness of trial store layout changes using statistical testing.  
 
----
 
 ## ⚙️ Tools & Techniques
 - **Python**: pandas, numpy, matplotlib, scipy  
@@ -45,18 +46,22 @@ The analysis followed three stages:
 ---
 
 
----
+## 🚀 Key Insights  
 
-## 🚀 Key Insights
-- **Segments:** Mainstream *Young/Midage Singles & Couples* are high-value customers.  
-- **Products:** *Kettle* brand and **175g packs** dominate preferences → use as hero SKUs.  
-- **Trial Results:**  
-  - Store **88**: Successful trial (sales + customers uplift).  
-  - Store **86**: Customer uplift only.  
-  - Store **77**: Neutral impact.  
+- **Customer Segments**  
+  - *Mainstream Young & Midage Singles/Couples* are the highest-value customers, driving strong chip sales.  
+  - Premium shoppers pay more per unit, but growth opportunities lie in the Mainstream segment.  
 
----
+- **Product Preferences**  
+  - *Kettle* is the leading brand across target customers.  
+  - **175g packs** dominate sales and should be used as “hero SKUs” for promotions.  
 
-## 📄 Acknowledgement
-This project is based on a retail analytics case study scenario (FMCG – chips category).  
-It has been implemented independently in Python for learning and portfolio purposes.
+- **Trial Store Results**  
+  - **Store 88** → Significant uplift in both sales and customer numbers → trial successful.  
+  - **Store 86** → Increased customer traffic but limited sales uplift.  
+  - **Store 77** → No meaningful change (neutral).  
+
+📌 **Recommendation:** Prioritise marketing *175g Kettle products* to *Mainstream Young & Midage Singles/Couples*, and scale layout changes starting with stores similar to **Store 88**.  
+
+
+
