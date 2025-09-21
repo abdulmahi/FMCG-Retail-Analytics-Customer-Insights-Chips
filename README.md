@@ -6,14 +6,35 @@ It was completed as part of a structured analytics workflow using **Python, pand
 ---
 
 ## 🎯 Objectives
-- Explore and clean retail FMCG transaction data.  
-- Understand customer behaviour by demographics and premium status.  
+- Explore and clean transaction data & purchase behaviour data.  
+- Understand customer behaviour by demographics and membership status.  
 - Identify high-value customer segments and product preferences.  
 - Evaluate the effectiveness of trial store layout changes using statistical testing.  
 
 ---
 
-## 📊 Overview
+## ⚙️ Tools & Techniques
+- **Python**: pandas, numpy, matplotlib, scipy  
+- **Jupyter Notebook** for analysis and reporting  
+- **Data cleaning & feature engineering** (regex, outlier detection, merging)  
+- **Statistical testing** (independent t-tests)  
+- **Experimental design** (trial vs control store evaluation)  
+
+---
+
+## 📂 Datasets
+- **Transaction Data**:  
+  Each row represents a customer transaction, including purchase date, store number, product name, quantity, and dollar sales.  
+
+- **Purchase Behaviour Data**:  
+  Customer-level demographics linked by loyalty card ID, including **Lifestage** (e.g., *Young Singles/Couples*, *Retirees*) and **Premium Membership Type** (*Premium, Mainstream, Budget*).  
+
+- **Cleaned/Merged Data (QVI)**:  
+  Output dataset after cleaning and joining the above. Includes engineered attributes like **Pack Size (grams)**, **Brand**, and **Price per Unit** for customer insights and statistical testing.  
+
+---
+
+## 📊 Process Overview
 The analysis followed three stages:
 
 1. **QVI Analysis (Initial Exploration)**  
@@ -31,17 +52,6 @@ The analysis followed three stages:
    - Defined trial stores (77, 86, 88) and selected control stores using **correlation & magnitude similarity**.  
    - Compared trial vs control stores on **sales** and **customer numbers**.  
    - Conducted **t-tests** to determine statistical significance.  
-
----
-
-
-
-## ⚙️ Tools & Techniques
-- **Python**: pandas, numpy, matplotlib, scipy  
-- **Jupyter Notebook** for analysis and reporting  
-- **Data cleaning & feature engineering** (regex, outlier detection, merging)  
-- **Statistical testing** (independent t-tests)  
-- **Experimental design** (trial vs control store evaluation)  
 
 ---
 
