@@ -73,5 +73,9 @@ The analysis followed three stages:
 
 📌 **Recommendation:** Prioritise marketing *175g Kettle products* to *Mainstream Young & Midage Singles/Couples*, and scale layout changes starting with stores similar to **Store 88**.  
 
+---
+
+👤 **Author:** Abdul Mahi  
+💼 BI Developer ©2025  
 
 
